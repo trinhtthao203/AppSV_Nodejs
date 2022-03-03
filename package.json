@@ -16,7 +16,6 @@
     "expo-status-bar": "~1.0.3",
     "jest-haste-map": "^26.6.2",
     "native-base": "^2.15.2",
-    "ngrok": "^4.0.1",
     "pg": "^8.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
