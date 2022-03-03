@@ -1,0 +1,17 @@
+Trước khi chạy dự án, máy phải cài đặt ReactNative.
+
+Bước 1: Chạy dòng lệnh sau vào terminal : npm i pg /*Thư viện sẽ được tải cùng nodemodule. Trong Nodemodule sẽ tự động thêm thư viện đã được tải trong dự án trong file package.json*/
+Bước 2: Chạy dòng lệnh sau vào terminal : cd ./server/ 
+Bước 3: Chạy dòng lệnh sau vào terminal : npx nodemon App.js
+Bước 4: Đổi địa chỉ IP của baseURL trong file App.js thành IP của bạn và Save lại
+/*
+Cách xem IP : 
+-> L_click vào biểu tượng wifi góc bên phải màn hình 
+-> Chọn properties Wifi bạn đang sử dụng 
+-> Địa chỉ IP4 là địa chỉ bạn cần tìm 
+*/
+Bước 5: Chạy dòng lệnh sau vào terminal khác : npm start
+Bước 6: Mở App Expo trên điện thoại và scan mã QR 
+
+
+/*Xem các thư viện được sử dụng trong dự án trong file package.json nếu có lỗi phiên bản trong lúc chạy*/
